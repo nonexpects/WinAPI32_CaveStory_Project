@@ -1,0 +1,39 @@
+#pragma once
+#include "image.h"
+
+//백버퍼 이미지를 이미지매니져에 담아두기
+static image* _backBuffer = IMAGEMANAGER->addImage("backBuffer", WINSIZEX, WINSIZEY);
+static image* _camDC = IMAGEMANAGER->addImage("camBuffer", TILESIZEX, TILESIZEY);
+//static image* _collDC = IMAGEMANAGER->addImage("collisionBuffer", TILESIZEX, TILESIZEY);
+static image* _mapToolDC = IMAGEMANAGER->addImage("mapToolBuffer", TILESIZEX, TILESIZEY);
+
+class gameNode
+{
+private:
+	HDC _hdc;		
+
+public:
+	virtual HRESULT init();
+	virtual void release();
+	virtual void update();
+	virtual void render();
+
+	//백버퍼 이미지 얻기
+	image* getBackBuffer() { return _backBuffer; }
+	image* getCamBuffer() { return _camDC; }
+	image* getMapToolBuffer() { return _mapToolDC; }
+	//화면 HDC 얻기
+	HDC getHDC() { return _hdc; }
+	//메모리 DC 얻기
+	HDC getMemDC() { return _backBuffer->getMemDC(); }
+	HDC getCamMemDC() { return _camDC->getMemDC(); }
+	HDC getmapToolDC() { return _mapToolDC->getMemDC(); }
+	//HDC getcollDC() { return _collDC->getMemDC(); }
+
+	//메인 프로시져
+	LRESULT CALLBACK MainProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
+
+	gameNode() {}
+	virtual ~gameNode() {}
+};
+

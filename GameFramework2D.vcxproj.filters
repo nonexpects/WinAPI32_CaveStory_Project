@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{a2d0a9a7-2478-49b2-ab90-e5931b927c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\유틸">
+      <UniqueIdentifier>{a22cbe19-8f6e-4583-8240-bbddcaacc298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{f2633db5-0743-4be4-8599-5519e1375a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{c9a127aa-c7a8-439b-a7a5-80732a94972c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameNode">
+      <UniqueIdentifier>{3bc1cdb0-28db-47c0-bbf4-eb68a8fb3418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\매니져">
+      <UniqueIdentifier>{cc3f996c-b2a8-4c0d-92ae-b58a3950fa63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\이미지">
+      <UniqueIdentifier>{9615466f-c4a7-4386-b352-ce900487e2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\카메라">
+      <UniqueIdentifier>{9fbaf76e-b749-46c3-aa5c-e71d2be8f7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\총알">
+      <UniqueIdentifier>{10964644-8ae4-47ee-b51b-8b22931b40c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\체력바">
+      <UniqueIdentifier>{5e51dd86-a0c1-4370-9f1d-1975025e79cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\INI데이터">
+      <UniqueIdentifier>{6b7e9e77-62b9-463d-b271-4e0ab595ea41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\로딩">
+      <UniqueIdentifier>{92d3c614-05c5-41ba-a32e-d8a4994995c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\player">
+      <UniqueIdentifier>{0fe93eac-cdb5-4b20-8498-dd133290c2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{c9db33e9-ad36-41f6-8e9a-0f90ea9f10ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\mapTool">
+      <UniqueIdentifier>{4ed72ee1-c962-4fa6-bb47-ff219c782282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Item">
+      <UniqueIdentifier>{7e44f2bf-d35a-4770-8da8-9d0bd25540c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Inven">
+      <UniqueIdentifier>{6e94e218-fd3b-4a23-af6f-35319ccf11c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\weapon">
+      <UniqueIdentifier>{2cafeacd-1458-4df9-a22b-7955cafa2e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\save &amp; load">
+      <UniqueIdentifier>{95bad5af-730c-419a-ae95-14900c7008f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Item\Items">
+      <UniqueIdentifier>{6cd2a28c-519b-4c13-a7f8-367cb61a22b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\inGameScenes">
+      <UniqueIdentifier>{e69b801b-8407-414b-b36d-af2d78bb4696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\enemy">
+      <UniqueIdentifier>{f76ba407-82c7-48be-a088-0b8a729b9b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\UI">
+      <UniqueIdentifier>{7ab605ec-f50e-4dae-923e-70300b62de95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\pixelCollision">
+      <UniqueIdentifier>{0f7bbfe0-3eaf-4bd5-b049-f78c098fd166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\effect">
+      <UniqueIdentifier>{ce8f6c14-b821-4b3b-99f6-075866ddbbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\dialog">
+      <UniqueIdentifier>{2b241565-b024-41ef-849e-811941f4dd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\플레이어데이터">
+      <UniqueIdentifier>{bd7ae7cc-5b31-466d-8457-1d0eb40bb16d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>MainGame\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework2D\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>GameFramework2D\카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>GameFramework2D\총알</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>GameFramework2D\체력바</Filter>
+    </ClInclude>
+    <ClInclude Include="playerData.h">
+      <Filter>GameFramework2D\플레이어데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="startScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>GameFramework2D\INI데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>GameFramework2D\로딩</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="tileNode.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>MainGame\player</Filter>
+    </ClInclude>
+    <ClInclude Include="mapTool_main.h">
+      <Filter>MainGame\Scene\mapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="mapToolScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="mapTool_sub.h">
+      <Filter>MainGame\Scene\mapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="inven.h">
+      <Filter>MainGame\Inven</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>MainGame\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>MainGame\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>MainGame\Scene\inGameScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="houseScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="mimigaScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>MainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="mob.h">
+      <Filter>MainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>MainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon_all.h">
+      <Filter>MainGame\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollision.h">
+      <Filter>GameFramework2D\pixelCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="item_all.h">
+      <Filter>MainGame\Item\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>MainGame\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="eggScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>GameFramework2D\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="fixed_item.h">
+      <Filter>MainGame\Item\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog.h">
+      <Filter>GameFramework2D\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="bossScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>MainGame\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework2D\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>GameFramework2D\카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>GameFramework2D\총알</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>GameFramework2D\체력바</Filter>
+    </ClCompile>
+    <ClCompile Include="playerData.cpp">
+      <Filter>GameFramework2D\플레이어데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="startScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>GameFramework2D\INI데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>GameFramework2D\로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>MainGame\player</Filter>
+    </ClCompile>
+    <ClCompile Include="mapTool_main.cpp">
+      <Filter>MainGame\Scene\mapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="mapToolScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="mapTool_sub.cpp">
+      <Filter>MainGame\Scene\mapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="inven.cpp">
+      <Filter>MainGame\Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>MainGame\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>MainGame\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>MainGame\Scene\inGameScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="houseScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="mimigaScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>MainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="mob.cpp">
+      <Filter>MainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>MainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon_all.cpp">
+      <Filter>MainGame\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollision.cpp">
+      <Filter>GameFramework2D\pixelCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="item_all.cpp">
+      <Filter>MainGame\Item\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>MainGame\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="eggScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="fixed_item.cpp">
+      <Filter>MainGame\Item\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog.cpp">
+      <Filter>GameFramework2D\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="bossScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>GameFramework2D\effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
