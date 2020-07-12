@@ -4,4 +4,5 @@
 **제작기간** : 약 4주(20년 4월 22일 ~ 5월 18일)
 
 **영상**
-![_](https://www.youtube.com/watch?v=gbSyBQqJyiA&feature=emb_title)
+
+[![_](https://images.velog.io/images/acodeam/post/63f6cd04-8696-4de4-b9ca-e0a2d466ddad/Honeycam%202020-05-20%2013-43-39.gif)](https://youtu.be/uLR1RNqJ1Mw?t=0s)
