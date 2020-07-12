@@ -5,4 +5,4 @@
 
 **영상** (아래 이미지 클릭)
 
-[![_](https://images.velog.io/images/acodeam/post/63f6cd04-8696-4de4-b9ca-e0a2d466ddad/Honeycam%202020-05-20%2013-43-39.gif)](https://youtu.be/uLR1RNqJ1Mw?t=0s)
+[![_](https://images.velog.io/images/acodeam/post/63f6cd04-8696-4de4-b9ca-e0a2d466ddad/Honeycam%202020-05-20%2013-43-39.gif)](https://www.youtube.com/watch?v=gbSyBQqJyiA)
